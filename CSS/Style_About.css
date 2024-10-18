@@ -1,0 +1,59 @@
+body
+{
+    background-color: grey;
+}
+h1{ 
+
+    color:white;
+    text-align: center;
+    border-style:solid;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+img{
+    display:block;
+    margin: left;
+    border-style:solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+
+h2
+{
+    color:white;
+    text-align: left;
+
+}
+
+div
+{
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 200px;
+    background-color: cornflowerblue;
+    
+}
+#firstOne
+{
+    border-style:solid;
+    border-radius: 5px;
+    width: 1000px;
+    height: 130px;
+}
+#secondOne
+{
+    border-style:solid;
+    border-radius: 5px;
+    width: 1000px;
+    height: 60px;
+}
+#thirdOne
+{
+    border-style:solid;
+    border-radius: 5px;
+    width: 1000px;
+    height: 100px;
+}
