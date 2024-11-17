@@ -91,7 +91,7 @@ footer{
     animation: logo-spin-scale 3s infinite ease-in-out;
     transition: transform 0.3s ease;
     max-width: 100%; 
-    height: 50px; 
+    height: 50rem; 
     display: block; 
     margin: 10px auto;
     }
