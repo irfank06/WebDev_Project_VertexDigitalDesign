@@ -1,0 +1,113 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #677582;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: steelblue;
+    word-spacing: 110px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#menu a:hover {
+    color: #ff6347;
+}
+
+/* Main Title */
+#main-title {
+    text-align: center;
+    color: #d44;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* Events Section */
+#events-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.event-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.event-card h2 {
+    color: #642a03;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer img {
+    margin: 5px;
+    vertical-align: middle;
+}
+
+footer{
+    text-align: center;
+    background-color: steelblue;
+}
+#logo-image {
+    animation: logo-spin-scale 3s infinite ease-in-out;
+    transition: transform 0.3s ease;
+    max-width: 100%; 
+    height: 50px; 
+    display: block; 
+    margin: 10px auto;
+    }
+    @keyframes logo-spin-scale {
+        0% {
+            transform: rotate(0deg) scale(1); /* Initial state */
+        }
+        50% {
+            transform: rotate(180deg) scale(1.1); /* Midway: rotate and scale up */
+        }
+        100% {
+            transform: rotate(360deg) scale(1); /* Full rotation, back to original size */
+        }
+    }
+    
+    /* Hover Effect for Logo */
+    #logo-image:hover {
+        transform: scale(1.2); /* Slightly enlarge on hover */
+    }
