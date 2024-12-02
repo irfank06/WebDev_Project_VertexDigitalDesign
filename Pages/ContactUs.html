@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     
+    <script defer src="/JAVASCRIPT/contact.js"></script>
+
 </head>
-<body link="#000" alink="017bf5"></body>
+<body link="#000" alink="017bf5">
     <nav class="navbar">
         <div class="navdiv">
             <img style="height:75px;" src="wheelsonfirelogo.png" alt="Wheels On Fire Logo">
@@ -16,7 +18,7 @@
                 <li><a  href="index-3.html">HOME</a></li>
                 <li><a href="events.html">EVENTS</a></li>
                 <li><a href="About.html">ABOUT</a></li>
-                <li><a class="active href=".\Pages\ContactUS.html">CONTACT-US</a></li>
+                <li><a class="active" href=".\Pages\ContactUS.html">CONTACT-US</a></li>
                 <button><a href=".">LOG IN</a></button>
             </ul>
         </div>
@@ -31,20 +33,23 @@
     <p>If you have any inquiries, please email us at: <a href="mailto:support@wheelsonfire.com"><b>support@wheelsonfire.com</b></a></p>
 
     <h2>Contact Form</h2>
-
-        <form>
+        <div id= "error"></div>
+        <form id="form" action="/">
             <h3> First Name:</h3>
-            <input type="text" id=" name" name="name" required>
+                
+                <div>
+                    <input id="FirstName" name="FirstName" type="text">
+                </div>    
 
             <h3> Last Name:</h3>
-            <input type="text" id=" name" name="name" required>
+            <input type="text" id="LastName" name="LastName">
 
             <h3>Email:</h3>
             <input type="email" id="email" name="email"  placeholder="wheels@fire.com" required>
 
 
             <label for="reason">Reason for Inquiry:</label>
-            <select id="reason" name="reason" required>
+            <select id="reason" name="reason">
                 <option value="" disabled selected>Select an option</option>
                 <option value="general">General</option>
                 <option value="feedback">Feedback</option>
