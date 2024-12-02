@@ -2,7 +2,13 @@ body{
     background-color: #709cef;
 }
 
-
+#error {
+    color: red;
+    font-size: 30px;
+    margin-top: 10px;
+    border-style: double;
+    border-width: 10px;
+}
 
 .navbar{
     font-family: sans-serif;
