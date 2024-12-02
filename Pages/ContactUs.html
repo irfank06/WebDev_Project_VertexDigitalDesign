@@ -8,47 +8,68 @@
     <title>Contact Us</title>
     
 </head>
-<body>
+<body link="#000" alink="017bf5"></body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <img style="height:75px;" src="wheelsonfirelogo.png" alt="Wheels On Fire Logo">
+            <ul>
+                <li><a  href="index-3.html">HOME</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a class="active href=".\Pages\ContactUS.html">CONTACT-US</a></li>
+                <button><a href=".">LOG IN</a></button>
+            </ul>
+        </div>
+    </nav>
 
-<header id="header">
-    <img id="logo-image" src="wheelsonfirelogo.png" alt="Wheels on fire logo" ><h2 id="menu">Gallery Compare Sell Buy About Countact-us Events LOG-IN</h2> 
-</header>
-    <h1 id="main-title"><u>Contact us </u></h1>
-    
-   
+    <br />
+        
     <img id="aston" src="astonred.png" alt="Aston Martin DBS">
 
-
     <h2 id="heading">Support Email</h2>
+
     <p>If you have any inquiries, please email us at: <a href="mailto:support@wheelsonfire.com"><b>support@wheelsonfire.com</b></a></p>
 
     <h2>Contact Form</h2>
 
-    <form>
-        <h3>Name:</h3>
-        <input type="text" id="name" name="name" required>
+        <form>
+            <h3> First Name:</h3>
+            <input type="text" id=" name" name="name" required>
 
-        <h3>Email:</h3>
-        <input type="email" id="email" name="email" required>
+            <h3> Last Name:</h3>
+            <input type="text" id=" name" name="name" required>
 
-        <h3>Phone Number:</h3>
-        <input type="tel" id="phone" name="phone">
+            <h3>Email:</h3>
+            <input type="email" id="email" name="email"  placeholder="wheels@fire.com" required>
 
-        <h3>Comments:</h3>
-        <textarea id="comments" name="comments" rows="4" required></textarea>
 
-        <button type="submit">Submit</button>
-        <h5>Phone Number</h5>
-        <p id="phone">+335 867 478 5862</p>
-    </form>
-    <footer>
-        <br /><br />
-        <img style="width:25px;height:25px;" src="https://1000logos.net/wp-content/uploads/2017/02/insta-logo.png">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img style="width:25px;height:25px;" src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg">
-        <p size="6">For more news and updates, visit <a href="https://www.wheelsonfire/news.com" target="_blank">WheelsOnFire/news.com</a></p>
-        <br />
-    </footer>
+            <label for="reason">Reason for Inquiry:</label>
+            <select id="reason" name="reason" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="general">General</option>
+                <option value="feedback">Feedback</option>
+                <option value="technical">Technical Support</option>
+            </select>
+
+            <h3>Message:</h3>
+            <textarea id="comments" name="comments" rows="4" required placeholder="Your opinions"></textarea>
+            
+
+            <button type="submit">Submit</button>
+    
+            <h5>Phone Number</h5>
+            <p id="phone">+335 867 478 5862</p>
+        </form>
+        <footer>
+            <br /><br />
+            <img style="width:25px;height:25px;" src="https://1000logos.net/wp-content/uploads/2017/02/insta-logo.png">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img style="width:25px;height:25px;" src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg">
+            <p size="6">For more news and updates, visit<i><a href="https://www.wheelsonfire/news.com" target="_blank">WheelsOnFire/news.com</a></i></p>
+            <br />
+        </footer>
 
 </body>
 </html>
+
+       
