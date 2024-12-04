@@ -1,0 +1,168 @@
+/*Settings for desktop screen size*/
+
+.dropbtn { 
+    display: none; 
+}
+
+.dropdown-content { 
+    display: none; 
+}
+
+*{  
+    text-decoration: none;
+}
+
+body{
+    background-color: #2A364C;
+}
+
+.navbar{
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 20px 0;
+}
+
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+li a:hover{
+    color: #FFB866;
+}
+
+button{
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 35px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    transition-duration: 0.1s;
+}
+
+button:hover{
+    background-color: #FFB866;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+
+button a{
+    color: #2A364C;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.active{
+    color: #FFB866;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+img{
+    width: 200px;
+}
+
+.container{
+    position: relative;
+}
+
+.center{
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: black;
+    border-radius: 25px;
+    background: #FFB866;
+    padding: 15px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+
+#LASVJ{
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+
+
+/*Settings for phone screen size*/
+@media only screen and (max-width: 1000px)
+{
+    li { 
+        display: none; 
+    }
+
+    button { 
+        display: none; 
+    }
+
+    .dropbtn {
+        display: contents;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+      
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 150px;
+        margin-right: 50px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        color: #2A364C;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: left;
+    }
+      
+    .dropdown-content a:hover {
+        background-color: #FFB866;
+        color: #2A364C;
+    }
+      
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
