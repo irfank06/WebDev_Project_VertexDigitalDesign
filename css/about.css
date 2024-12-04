@@ -1,24 +1,23 @@
 
 body
 {
-    background-image: url(/Media/car.webp);
+    background-image: url(/images/car.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 
 .img_deg
 {   
-    
     position: absolute;
     left: 60rem;
     height: 42rem;
     width: 29rem;
     
 }         
-
 
 
 h1{ 
@@ -123,7 +122,7 @@ div
     font-size: 1rem;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: #2a364c;
     
 }
 .firstOne
@@ -143,4 +142,3 @@ div
     width: 50rem;
     
 }
-
