@@ -1,0 +1,192 @@
+body{
+    background-color: #2A364C;
+}
+
+#error {
+    color: red;
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 10px;
+    border-width: 10px;
+}
+
+.navbar{
+    font-family: sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    word-spacing: 70px;
+    
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 20px 0;
+}
+
+li a{
+    color: white;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+li a:hover {
+    color: #FFB866;
+}
+
+button{
+    background-color: white;
+    margin-right: 40px;
+    border-radius: 30px;
+    padding: 12px;
+    width: 150px;
+    text-align: center;
+    border: none;
+    transition-duration: 0.1s;
+}
+button:hover {
+    background-color: #FFB866;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+button a{
+    color: #2A364C;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.active{
+    color: #FFB866;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+
+/* Form */
+form {
+    background:#2A364C; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    color: rgb(9, 30, 47);
+}
+
+label {
+ font-size: 20px;
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+button {
+    background-color: white; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-size: 16px; /* Adjusted for smaller screens */
+}
+
+/* Images */
+#aston{
+    max-width: 100%; 
+    height: 200px; 
+    display: block; 
+    margin: 10px auto;
+}
+
+
+#logo-image {
+    animation: logo-spin-scale 3s infinite ease-in-out;
+    transition: transform 0.3s ease;
+    max-width: 100%; 
+    height: 50px; 
+    display: block; 
+    margin: 10px auto;
+}
+
+@keyframes logo-spin-scale {
+    0% {
+        transform: rotate(0deg) scale(1); /* Initial state */
+    }
+    50% {
+        transform: rotate(180deg) scale(1.1); /* Midway: rotate and scale up */
+    }
+    100% {
+        transform: rotate(360deg) scale(1); /* Full rotation, back to original size */
+    }
+}
+
+/* Hover Effect for Logo */
+#logo-image:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #header {
+        flex-direction: column; /* Stack header elements */
+        text-align: center;
+    }
+
+    #menu {
+        word-spacing: 10px;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    #main-title {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    #header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu {
+        font-size: 12px;
+        word-spacing: 5px;
+    }
+
+    #main-title {
+        font-size: 24px;
+    }
+
+    button {
+    
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+
+    form {
+        padding: 10px;
+    }
+}
+footer{
+    text-align: center;
+    background-color: #2A364C;
+}
+
+#link{
+    word-spacing: 110px;
+}
