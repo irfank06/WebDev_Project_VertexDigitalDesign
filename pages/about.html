@@ -2,18 +2,38 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="about.css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> About</title>
-
-    <link rel="stylesheet" href="/CSS/about.css">
-
+    <title>About</title>
     
 </head>
+<body link="#000" alink="017bf5"></body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <img style="height:75px;" src="wheelsonfirelogo.png" alt="Wheels On Fire Logo">
+            <ul>
+                <li><a  href="index-3.html">HOME</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a  class="active" href="contactus.html">ABOUT</a></li>
+                <li><a href="about.html">CONTACT US</a></li>
+                <div class="dropdown" style="float:right;">
+                    <li class="dropbtn"><a href="#">&#9776</a></li>
+                    <div class="dropdown-content">
+                    <a href="index.html" onclick="myFunction()">HOME</a>
+                    <a href="events.html" onclick="myFunction()">EVENTS</a>
+                    <a href="about.html" onclick="myFunction()">ABOUT</a>
+                    <a href="contactus.html" onclick="myFunction()">CONTACT US</a>
+                    <a href="#" onclick="myFunction()">LOG IN</a>
+                    </div>
+                </div>
+                <button><a href="#">LOG IN</a></button>
+            </ul>
+        </div>
+    </nav>
 
-
-
-    <h1 class="animated-text"> <u>About</u> </h1>    
+    <br /> 
 
     <div id="FirstH2">
         <h2> <u>John O'rielly</u> </h2>
@@ -28,7 +48,7 @@
 
     <br>
 
-    <img class="img_deg"   src="/images/businessman.avif"  alt="John Orielly">
+    <img class="img_deg"   src="businessman.avif"  alt="John Orielly">
 
     <div class="firstOne">
 
@@ -46,9 +66,7 @@
         <hr>
 
     <br>
-    <br>
-    <br>
-    <br>
+
     
     <div id="SecondH2">
         <h2> <u>Welcome to our automotive car collection!</u></h2>
@@ -70,16 +88,14 @@
             Whether you are seeking a reliable hatchback or a luxurious lamborghini, our expertise will guide you every step of the way.
         </p>
     </div>
-
-    <hr>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
+   
 
 </body>
+<footer>
+    <br /><br />
+    <img id="sociallogo"style="width:25px;height:25px;" src="https://1000logos.net/wp-content/uploads/2017/02/insta-logo.png">
+    <img id="sociallogo" style="width:25px;height:25px;" src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg">
+    <p size="6">For more news and updates, visit<i><a style="color: white; text-decoration: underline;" href="https://www.wheelsonfire/news.com" target="_blank">WheelsOnFire/news.com</a></i></p>
+    <br />
+</footer>
 </html>
