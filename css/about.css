@@ -1,101 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
+body
+{
+    background-image: url(/images/car.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
-<head>
-    <link rel="stylesheet" href="about.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+}
+
+
+.img_deg
+{   
+    position: absolute;
+    left: 60rem;
+    height: 30rem;
+    width: 29rem;
+    border-color: rgb(150, 61, 61);
+    border-radius:5rem;
     
-</head>
-<body link="#000" alink="017bf5"></body>
-    <nav class="navbar">
-        <div class="navdiv">
-            <img style="height:75px;" src="wheelsonfirelogo.png" alt="Wheels On Fire Logo">
-            <ul>
-                <li><a  href="index-3.html">HOME</a></li>
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a  class="active" href="contactus.html">ABOUT</a></li>
-                <li><a href="about.html">CONTACT US</a></li>
-                <div class="dropdown" style="float:right;">
-                    <li class="dropbtn"><a href="#">&#9776</a></li>
-                    <div class="dropdown-content">
-                    <a href="index.html" onclick="myFunction()">HOME</a>
-                    <a href="events.html" onclick="myFunction()">EVENTS</a>
-                    <a href="about.html" onclick="myFunction()">ABOUT</a>
-                    <a href="contactus.html" onclick="myFunction()">CONTACT US</a>
-                    <a href="#" onclick="myFunction()">LOG IN</a>
-                    </div>
-                </div>
-                <button><a href="#">LOG IN</a></button>
-            </ul>
-        </div>
-    </nav>
+}         
 
-    <br /> 
 
-    <div id="FirstH2">
-        <h2> <u>John O'rielly</u> </h2>
-    </div> 
+#FirstH2
+{
+    position:relative;
+    left:20rem;
+    font-size: 1rem;
+    color:black;
+    background-color: #FFB866;
+    border-style:solid;
+    border-radius: 0.5rem;
+    width: 28rem;
+    height: 4rem;
+    text-align: center;
+    position: relative;
+    left: 60rem;
+    top: 5rem;
+}
+
+#FirstH2A
+{
+    position:relative;
+    left:10rem;
+    font-size: 1rem;
+    color:black;
+    background-color:#FFB866;
+    border-style:solid;
+    border-radius: 0.5rem;
+    width: 30rem;
+    height: 4rem;
+    text-align: center;
+    position: relative;
+
+}
+#SecondH2
+{   
+    text-align: center;
+    position:relative;
+    left:5rem;
+    font-size: 1.2rem;
+    color:black;
+    background-color:#FFB866;
+    border-style:solid;
+    border-radius: 0.5rem;
+    width: 40rem;
+    height: 4rem;
+
+}
+
+div
+{
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #2a364c;
     
-
-
-
-    <div id="FirstH2A">
-        <h2> <u>Who is John O'rielly ?</u> </h2>
-    </div>
-
-    <br>
-
-    <img class="img_deg"   src="businessman.avif"  alt="John Orielly">
-
-    <div class="firstOne">
-
-        <p>
-            John O'Reilly is a decorated automotive professional with over 10 years in the industry. 
-            He aquired a Bachelors degree in Business from Kingston University and a certificate in Automotive Technological Studies. 
-            John is dedicated, connecting clients with top-of-the range vehicles that fulfill their needs.
-            <br>
-            <br>
-            His extensive knowledge of market trends and eagerness to help customers have made him a reliable professional in this field of work.
-            When John is not helping clients find the car of their dreams, he spends his time attending car shows and delving into the newest vehicle innovations.
-        </p>
-    </div>   
-
-        <hr>
-
-    <br>
-
+}
+.firstOne
+{
+    border-style:solid;
+    border-radius: 0.5rem;
+    width: 63rem;
+    height: 10rem;
+    width: 50rem;
+}
+.secondOne
+{
+    border-style:solid;
+    border-radius: 0.5rem;
+    width: 63rem;
+    height: 5rem;
+    width: 50rem;
     
-    <div id="SecondH2">
-        <h2> <u>Welcome to our automotive car collection!</u></h2>
-    </div>
-    <br>
-    <div class="secondOne"> 
-        <p>
-            With over a decade of experience in the automotive industry, 
-            John O'rielly is a dedicated car enthusiast and experienced businessman, 
-            motivated by his love for high quality for vehicles, John O'rielly founded this company to help clients fnd cars that coresponds to their lifestyle and needs.
-        </p>
-    </div>
-    
-    <br>
-    <div class="secondOne"> 
-        <p>
-            At our car collectin, integrity and full transparency is our number 1 priority. 
-            We ensure that every customer feels satisfied and fully comfortable throughout their journey of discovering their ideal car. 
-            Whether you are seeking a reliable hatchback or a luxurious lamborghini, our expertise will guide you every step of the way.
-        </p>
-    </div>
-   
+}
+body {
+    background-color: #2A364C;
+    color: white;
+}
 
-</body>
-<footer>
-    <br /><br />
-    <img id="sociallogo"style="width:25px;height:25px;" src="https://1000logos.net/wp-content/uploads/2017/02/insta-logo.png">
-    <img id="sociallogo" style="width:25px;height:25px;" src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg">
-    <p size="6">For more news and updates, visit<i><a style="color: white; text-decoration: underline;" href="https://www.wheelsonfire/news.com" target="_blank">WheelsOnFire/news.com</a></i></p>
-    <br />
-</footer>
-</html>
+
+.dropbtn { 
+    display: none; 
+}
+
+.dropdown-content { 
+    display: none; 
+}
+
+*{  
+    text-decoration: none;
+}
+.navbar{
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 20px 0;
+}
+
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+li a:hover{
+    color: #FFB866;
+}
+
+
+button{
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 35px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    transition-duration: 0.1s;
+}
+
+button:hover{
+    background-color: #FFB866;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+
+button a{
+    color: #2A364C;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.active{
+    color: #FFB866;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+footer {
+    text-align: center;
+    
+}
